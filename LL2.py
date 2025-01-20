@@ -29,7 +29,3 @@ plt.imshow(LL2)
 plt.axis('off')
 
 plt.show()
-
-# Nếu muốn lưu LL1 và LL2
-cv2.imwrite("LL1_component.jpg", LL1)
-cv2.imwrite("LL2_component.jpg", LL2)
